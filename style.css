@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #303841;
+    height: 300vh;
+}
+/* Bagian Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #47555E;
+    padding: 12px 70px;
+}
+nav, ul {
+    display: flex;
+    list-style: none;
+    
+        /* justify-content: center; */
+}
+.list-nav, ul, li {
+    gap: 3rem;
+}
+nav, ul, li, a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.nav-active {
+    color: #7AA5D2;
+    font-weight: 600;
+}
+.logo{
+    color: #7AA5D2;
+    font-weight: 600;
+}
+
+/* Bagian Header */
+header {
+    display: flex;
+    padding: 150px 70px 150px 70px;
+}
+.left-header h6{
+    font-weight: 500;
+    font-size: 30px;
+    color: #EEEEEE;
+}
+.left-header h3 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: start;
+    color:#EEEEEE;
+}
+.left-header p {
+    font-weight: 300;
+    font-size: 20px;
+    width: 40rem;
+    text-align: start;
+    color:#EEEEEE;
+}
+.left-header p span {
+    color: #7AA5D2;
+    font-weight: 700;
+}
+.left-header ul {
+    gap:7px;
+    padding: 7px 0px;
+}
+.left-header button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7AA5D2;
+    border-style: none;
+    width: 100px;
+    font-size: 18px;
+}
+.right-header img {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin-left: 200px;
+    margin-top: -10px;
+    border: 3px solid #7AA5D2;
+}
+/* Main Section */
+main {
+    padding: 40px 0;
+    background-color: #47555E;
+}
+.title-main {
+    text-align: center;
+    color: #303841;
+}
+.title-main h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+.title-main p {
+    font-weight: 300;
+    font-size: 30px;
+    color: #EEEEEE;
+}
+.title-main h2 span {
+    color: #7AA5D2;
+}
+.content-left img {
+    width: 350px;
+    height: 350px;
+    border-radius: 34px;
+    border: 3px solid #7AA5D2;
+}
+
+.content{
+    margin-top:100px;
+    display: flex;
+    padding: 12px 70px;
+}
+.content p {
+    color: #EEEEEE;
+    font-weight: 300;
+}
+.content button {
+    background-color: #7AA5D2;
+    margin-top: 10px;
+    padding: 7px;
+    align-items: center;
+    align-content: center;
+    border-style: none;
+    border-radius: 7px;
+
+}
+.content button a {
+    color: #303841;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.content button img {
+    width: 20px;
+    height: 20px;
+}
+.content-right{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.card-content {
+    width: 185px;
+    height: 161px;   
+    background-color: #7AA5D2;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.card-content img {
+    width: 50px;
+    height: 50px;
+}
+.card-content h2 {
+    color: #303841;
+}
+.card-content p {
+    color: #EEEEEE;
+}
+/* Figure Sections */
+.title-figure {
+    text-align: center;
+    color: #7AA5D2;
+}
+.title-figure h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+.title-figure p {
+    font-weight: 300;
+    font-size: 30px;
+    color: #EEEEEE;
+}
+.container-card-figure{
+    margin-top: 40px;
+    padding: 12px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-figure{
+    padding: 15px;
+    background-color: #47555E;
+    width: 260px;
+    height: 340px;
+    border-radius: 14px;
+    border: 2px solid #7AA5D2;
+    box-shadow: 0 0 20px 10px #47555E;
+}
+.card-figure img {
+    width: 230px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.card-figure p {
+    margin-top: 35px;
+    color: #EEEEEE;
+    font-weight: 300;
+}
+.card-figure h3 {
+    color: #EEEEEE;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.card-figure a i  {
+    float: right;
+    clear: both;
+    margin-top: -16px;
+    font-size: 35px;
+}
