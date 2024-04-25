@@ -140,8 +140,8 @@ main {
     color: #303841;
     text-align: center;
     font-weight: 600;
-    font-size: 16px;
-    margin: 0 auto;
+    font-size: 14px;
+    margin:  auto;
 }
 .content button img {
     width: 20px;
@@ -171,11 +171,16 @@ main {
 }
 .card-content h2 {
     color: #303841;
+    font-weight: 400;
 }
 .card-content p {
     color: #EEEEEE;
+    font-weight: 300;
 }
 /* Figure Sections */
+figure {
+    padding: 30px 0 80px 0;
+}
 .title-figure {
     text-align: center;
     color: #7AA5D2;
@@ -190,7 +195,7 @@ main {
     color: #EEEEEE;
 }
 .container-card-figure{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 12px 70px;
     display: flex;
     justify-content: space-between;
@@ -228,4 +233,92 @@ main {
     clear: both;
     margin-top: -16px;
     font-size: 35px;
+}
+/* Sections */
+section {
+    background-color: #47555E;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+.container-contact h2, h3, p, h5, ul {
+    margin: 5px 0;
+}
+.container-contact h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+.container-contact h2 span {
+    color: #7AA5D2;
+}
+.container-contact h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+.container-contact h3 span {
+    color: #7AA5D2;
+    font-weight: 700;
+}
+.container-contact p {
+    font-weight: 300;
+    font-size: 13px;
+    width: 450px;
+    color: #EEEEEE;
+}
+.container-contact h5 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #7AA5D2;
+}
+.container-contact h6 {
+    color: #EEEEEE;
+    font-weight: 400;
+    font-size: 12px;
+}
+.container-contact ul {
+    gap: 7px;
+}
+.form-contact {
+    padding: 8px;
+}
+.form-contact .form-input input {
+    margin: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+    width: 580px;
+    background-color: #303841;
+    outline: none;
+    color: #EEEEEE;
+}
+.form-contact .form-input input::placeholder {
+    color: #EEEEEE;
+    font-size: 11px;
+}
+.form-contact .form-input.write input{
+    height: 150px;
+}
+.form-contact .form-input.write input::placeholder {
+    position:absolute;
+    top: 10px;
+}
+.form-contact a{
+    margin-left: 7px;
+}
+.form-contact a button {
+    padding: 8px;
+    border-radius: 8px;
+    border-style: none;
+    color: #303841;
+    background-color: #7AA5D2;
+    font-weight: 500;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    color: #EEEEEE;
+    font-weight: 300;
+    font-size: 13px;
 }
