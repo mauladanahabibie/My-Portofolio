@@ -4,76 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portofolio</title>
-    <link rel="icon" href="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" type="image/x-icon">
+    <link rel="icon" href="Assets/icon.png" type="image/x-icon" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <a href="" class="logo">My Portofolio</a>
+      <a href="#" class="logo">Portofolio</a>
       <ul class="list-nav">
-        <li><a href="" class="nav-active">Beranda</a></li>
-        <li><a href="">Tentang Saya</a></li>
-        <li><a href="">Portofolio</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#beranda" class="nav-active">Beranda</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <header>
+    <header id="beranda">
       <div class="left-header">
         <h6>Hello, Its Me</h6>
         <h3>Mauladana Habibie</h3>
         <p>Frontend Developer || Backend Developer || Penetration Testing 1 Years Experience In <span>SMKN 1 Banyuwangi</span></p>
         <ul>
           <li>
-            <a href=""><box-icon name="facebook-circle" type="logo" color="#7aa5d2"></box-icon></a>
+            <a href=""><i class="bx bxl-facebook-circle" style="color: #7aa5d2"></i></a>
           </li>
           <li>
-            <a href=""><box-icon type="logo" name="instagram" type="logo" color="#7aa5d2"></box-icon></a>
+            <a href=""><i class="bx bxl-instagram" style="color: #7aa5d2"></i></a>
           </li>
           <li>
-            <a href=""><box-icon name="linkedin-square" type="logo" color="#7aa5d2"></box-icon></a>
+            <a href=""><i class="bx bxl-linkedin-square" style="color: #7aa5d2"></i></a>
           </li>
           <li>
-            <a href=""><box-icon name="github" type="logo" color="#7aa5d2"></box-icon></a>
+            <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
           </li>
         </ul>
-        <button><a href="">Let's Talk</a></button>
+        <button><a href="#about">Let's Talk</a></button>
       </div>
       <div class="right-header">
-        <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
+        <img src="Assets/pp2 cp3.jpeg" alt="" />
       </div>
     </header>
-    <main>
+    <main id="about">
       <div class="title-main">
         <h2>About <span>Me</span></h2>
         <p>My Introduction</p>
       </div>
       <div class="content">
         <div class="content-left">
-          <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
+          <img src="Assets/pp3 cp.jpeg" alt="" />
         </div>
         <div class="content-right">
           <div class="container-card">
             <div class="card-content">
-              <img src="/Assets/awareness.png" alt="" />
+              <img src="Assets/awareness.png" alt="" />
               <h2>Experience</h2>
               <p>1 + Years</p>
             </div>
             <div class="card-content">
-              <img src="/Assets/project (1).png" alt="" />
+              <img src="Assets/project (1).png" alt="" />
               <h2>Completed</h2>
-              <p>60 + Project</p>
+              <p>2 + Project</p>
             </div>
             <div class="card-content">
-              <img src="/Assets/online-chat.png" alt="" />
+              <img src="Assets/online-chat.png" alt="" />
               <h2>Support</h2>
               <p>Online 24/7</p>
             </div>
           </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quod illum explicabo at corrupti soluta ex error odio laudantium, corporis quisquam, aliquid deserunt alias molestias consectetur ea est, sapiente aliquam nisi pariatur. Qui
-            architecto perferendis saepe modi perspiciatis, accusantium autem?
+          <p class="explain">
+            I am a vocational high school student majoring in software development and games. With a broad understanding of programming languages and the latest technology, I am able to develop innovative and efficient applications. My skills are not
+            limited to coding, but also in collaborating with teams, creatively solving problems, and constantly learning to keep up with the world of technology. I believe that my skills in developing applications can add value to the company and am
+            ready to contribute maximally in achieving common goals
           </p>
           <button>
             <a href="">Download CV </a>
@@ -81,69 +82,95 @@
         </div>
       </div>
     </main>
-    <figure>
+    <section class="skill">
+      <div class="title-skill">
+        <h2>Skills</h2>
+        <p>Showcase my programming skills</p>
+      </div>
+      <div class="container-skill">
+        <div class="card-skill">
+          <img src="Assets/cpp.png" alt="" />
+          <h3>C++</h3>
+          <p>Store Databases and create or develop games</p>
+        </div>
+        <div class="card-skill">
+          <img src="Assets/javascript.png" alt="" />
+          <h3>Javascript</h3>
+          <p>Make the website interactive</p>
+        </div>
+        <div class="card-skill">
+          <img src="Assets/php.png" alt="" />
+          <h3>PHP</h3>
+          <p>As a website and database</p>
+        </div>
+        <div class="card-skill">
+          <img src="Assets/tailwind.png" alt="" />
+          <h3>Tailwind Css</h3>
+          <p>Framework utility class</p>
+        </div>
+        <div class="card-skill">
+          <img src="Assets/figma.png" alt="" />
+          <h3>Figma</h3>
+          <p>To design the interface</p>
+        </div>
+        <div class="card-skill">
+          <img src="Assets/bootstrap.png" alt="" />
+          <h3>bootstrap</h3>
+          <p>Framework with utility component</p>
+        </div>
+      </div>
+    </section>
+    <figure id="portofolio">
       <div class="title-figure">
         <h2>Portofolio</h2>
         <p>My Recent Project</p>
       </div>
       <div class="container-card-figure">
         <div class="card-figure">
-          <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
-          <p>Website Design</p>
-          <h3>Website Development Testing</h3>
-         <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
+          <img src="Assets/porto1.png" alt="" />
+          <p>Tourism Website</p>
+          <h3>About Blambangan Digital</h3>
+          <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
         </div>
         <div class="card-figure">
-          <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
-          <p>Website Design</p>
-          <h3>Website Development Testing</h3>
-         <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
-        </div>
-        <div class="card-figure">
-          <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
-          <p>Website Design</p>
-          <h3>Website Development Testing</h3>
-         <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
-        </div>
-        <div class="card-figure">
-          <img src="/Assets/WhatsApp Image 2024-03-26 at 07.06.10.jpeg" alt="" />
-          <p>Website Design</p>
-          <h3>Website Development Testing</h3>
-         <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
+          <img src="Assets/porto2.png" alt="" />
+          <p>Website E-Commerce</p>
+          <h3>Alexa Clothing Store</h3>
+          <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
         </div>
       </div>
     </figure>
-    <section>
+    <section id="contact" class="contact">
       <div class="container-contact">
-      <h2>Contact <span>Me</span></h2>
-      <h3>If You Want <span>Hire</span> Me</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quia dolores porro debitis, nulla suscipit esse ab voluptatem modi animi corrupti ullam eaque perspiciatis. Id.</p>
-      <h5>Fullstack Developer And Pentester</h5>
-      <h6>Indonesia, Jawa Timur</h6>
-      <ul>
-        <li>
-          <a href=""><box-icon name="facebook-circle" type="logo" color="#7aa5d2"></box-icon></a>
-        </li>
-        <li>
-          <a href=""><box-icon type="logo" name="instagram" type="logo" color="#7aa5d2"></box-icon></a>
-        </li>
-        <li>
-          <a href=""><box-icon name="linkedin-square" type="logo" color="#7aa5d2"></box-icon></a>
-        </li>
-        <li>
-          <a href=""><box-icon name="github" type="logo" color="#7aa5d2"></box-icon></a>
-        </li>
-      </ul>
-    </div>
+        <h2>Contact <span>Me</span></h2>
+        <h3>If You Want <span>Hire</span> Me</h3>
+        <p>With strong programming skills and high dedication, I bring great potential to be a valuable asset to your company</p>
+        <h5>Fullstack Developer And Pentester</h5>
+        <h6>Indonesia, Jawa Timur</h6>
+        <ul>
+          <li>
+            <a href=""><i class="bx bxl-facebook-circle" style="color: #7aa5d2"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-instagram" style="color: #7aa5d2"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-linkedin-square" style="color: #7aa5d2"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
+          </li>
+        </ul>
+      </div>
       <form action="#" class="form-contact">
         <div class="form-input">
-          <input type="text" placeholder="Your Name" required>
+          <input type="text" placeholder="Your Name" required />
         </div>
         <div class="form-input">
-          <input type="text" placeholder="Email Address" required>
+          <input type="text" placeholder="Email Address" required />
         </div>
-        <div class="form-input write">
-          <input type="text" placeholder="Write Message Here" required>
+        <div class="form-input">
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message Here" required></textarea>
         </div>
         <a href=""><button>Send Message</button></a>
       </form>

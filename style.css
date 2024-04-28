@@ -35,11 +35,12 @@ nav, ul, li, a {
 }
 .nav-active {
     color: #7AA5D2;
-    font-weight: 600;
+    font-weight: 700;
 }
 .logo{
     color: #7AA5D2;
     font-weight: 600;
+    font-size: 25px;
 }
 
 /* Bagian Header */
@@ -61,7 +62,7 @@ header {
 .left-header p {
     font-weight: 300;
     font-size: 20px;
-    width: 40rem;
+    width: 38rem;
     text-align: start;
     color:#EEEEEE;
 }
@@ -72,12 +73,13 @@ header {
 .left-header ul {
     gap:7px;
     padding: 7px 0px;
+    font-size: 30px;
 }
 .left-header button{
     padding: 10px;
     border-radius: 10px;
     background-color: #7AA5D2;
-    border-style: none;
+    border: none;
     width: 100px;
     font-size: 18px;
 }
@@ -89,9 +91,9 @@ header {
     margin-top: -10px;
     border: 3px solid #7AA5D2;
 }
-/* Main Section */
+/* About Section */
 main {
-    padding: 40px 0;
+    padding: 40px 0 70px 0;
     background-color: #47555E;
 }
 .title-main {
@@ -115,6 +117,7 @@ main {
     height: 350px;
     border-radius: 34px;
     border: 3px solid #7AA5D2;
+    margin-top: 5px;
 }
 
 .content{
@@ -122,14 +125,15 @@ main {
     display: flex;
     padding: 12px 70px;
 }
-.content p {
+.content .explain {
     color: #EEEEEE;
     font-weight: 300;
+    text-align: justify;
 }
 .content button {
     background-color: #7AA5D2;
     margin-top: 10px;
-    padding: 7px;
+    padding: 10px;
     align-items: center;
     align-content: center;
     border-style: none;
@@ -148,7 +152,7 @@ main {
     height: 20px;
 }
 .content-right{
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 200px;
 }
 .container-card {
@@ -177,9 +181,56 @@ main {
     color: #EEEEEE;
     font-weight: 300;
 }
+/* Skill Sections */
+.skill{
+    padding: 40px 70px 20px 70px;
+    
+}
+.skill .title-skill{
+    text-align: center;
+}
+.container-skill{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px 0;
+    gap: 35px;
+    /* background-color: red; */
+    padding: 20px ;
+    line-height: 30px;
+}
+.container-skill .card-skill img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.container-skill .card-skill h3{
+    color:#7AA5D2;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.container-skill .card-skill p{
+    color: #EEEEEE;
+    font-weight: 300;
+}
+.skill .title-skill h2{
+    font-weight: 700;
+    font-size: 60px;
+    color: #EEEEEE;
+}
+.skill .title-skill p{
+    font-weight: 300;
+    font-size: 30px;
+    color: #7AA5D2;
+}
+
 /* Figure Sections */
 figure {
-    padding: 30px 0 80px 0;
+    padding: 30px 0 120px 0;
 }
 .title-figure {
     text-align: center;
@@ -195,23 +246,24 @@ figure {
     color: #EEEEEE;
 }
 .container-card-figure{
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 12px 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /* gap: 40px; */
 }
 .card-figure{
     padding: 15px;
     background-color: #47555E;
-    width: 260px;
-    height: 340px;
+    width: 340px;
+    height: 370px;
     border-radius: 14px;
     border: 2px solid #7AA5D2;
     box-shadow: 0 0 20px 10px #47555E;
 }
 .card-figure img {
-    width: 230px;
-    height: 180px;
+    width: 310px;
+    height: 210px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -231,23 +283,25 @@ figure {
 .card-figure a i  {
     float: right;
     clear: both;
-    margin-top: -16px;
+    margin-top: -5px;
+    margin-right: 15px;
     font-size: 35px;
 }
 /* Sections */
-section {
+.contact {
     background-color: #47555E;
     display: flex;
     justify-content: space-between;
     padding: 40px 70px;
 }
-.container-contact h2, h3, p, h5, ul {
+.container-contact  h3, p, h5, ul {
     margin: 5px 0;
 }
 .container-contact h2 {
     font-weight: 700;
     font-size: 40px;
     color: #EEEEEE;
+    margin-top: 15px;
 }
 .container-contact h2 span {
     color: #7AA5D2;
@@ -256,14 +310,15 @@ section {
     font-weight: 400;
     font-size: 18px;
     color: #EEEEEE;
+    margin-top: 10px;
 }
 .container-contact h3 span {
     color: #7AA5D2;
     font-weight: 700;
 }
 .container-contact p {
-    font-weight: 300;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 15px;
     width: 450px;
     color: #EEEEEE;
 }
@@ -279,6 +334,7 @@ section {
 }
 .container-contact ul {
     gap: 7px;
+    font-size: 30px;
 }
 .form-contact {
     padding: 8px;
@@ -287,7 +343,7 @@ section {
     margin: 8px;
     padding: 10px;
     border-radius: 6px;
-    border-style: none;
+    border: none;
     width: 580px;
     background-color: #303841;
     outline: none;
@@ -297,12 +353,20 @@ section {
     color: #EEEEEE;
     font-size: 11px;
 }
-.form-contact .form-input.write input{
-    height: 150px;
+.form-contact .form-input textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: #303841;
+    color: #EEEEEE;
+    width: 580px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 8px;
 }
-.form-contact .form-input.write input::placeholder {
-    position:absolute;
-    top: 10px;
+.form-contact .form-input textarea::placeholder {
+    color: #EEEEEE;
+    font-size: 11px;
 }
 .form-contact a{
     margin-left: 7px;
