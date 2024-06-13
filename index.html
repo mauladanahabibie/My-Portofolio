@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portofolio</title>
     <link rel="icon" href="Assets/icon.png" type="image/x-icon" />
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Box Icon -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -41,6 +43,7 @@
         <img src="Assets/pp2 cp3.jpeg" alt="" />
       </div>
     </header>
+    <!-- About -->
     <main id="about">
       <div class="title-main">
         <h2>About <span>Me</span></h2>
@@ -48,7 +51,7 @@
       </div>
       <div class="content">
         <div class="content-left">
-          <img src="Assets/pp3 cp.jpeg" alt="" />
+          <img src="Assets/home1.jpg" alt="" />
         </div>
         <div class="content-right">
           <div class="container-card">
@@ -79,57 +82,64 @@
         </div>
       </div>
     </main>
+    <!-- Skill -->
     <section class="skill">
       <div class="title-skill">
-        <h2>Skills</h2>
-        <p>Showcase my programming skills</p>
+        <h2>Experience</h2>
       </div>
       <div class="container-skill">
-        <div class="card-skill">
-          <img src="Assets/cpp.png" alt="" />
-          <h3>C++</h3>
-          <p>Store Databases and create or develop games</p>
+        <div class="container-card-skill">
+          <div class="card-skill">
+            <img src="Assets/python.png" alt="">
+            <h5>Python</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/javascript.png" alt="">
+            <h5>Javascript</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/reactjs.png" alt="">
+            <h5>React JS</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/php.png" alt="">
+            <h5>PHP</h5>
+          </div>
         </div>
-        <div class="card-skill">
-          <img src="Assets/javascript.png" alt="" />
-          <h3>Javascript</h3>
-          <p>Make the website interactive</p>
+        <div class="container-card-skill">
+          <div class="card-skill">
+            <img src="Assets/tailwind.png" alt="">
+            <h5>Tailwind Css</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/bootstrap.png" alt="">
+            <h5>Boostrap</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/figma.png" alt="">
+            <h5>Figma</h5>
+          </div>
+          <div class="card-skill">
+            <img src="Assets/cpp.png" alt="">
+            <h5>C++</h5>
+          </div>
         </div>
-        <div class="card-skill">
-          <img src="Assets/php.png" alt="" />
-          <h3>PHP</h3>
-          <p>As a website and database</p>
-        </div>
-        <div class="card-skill">
-          <img src="Assets/tailwind.png" alt="" />
-          <h3>Tailwind Css</h3>
-          <p>Framework utility class</p>
-        </div>
-        <div class="card-skill">
-          <img src="Assets/figma.png" alt="" />
-          <h3>Figma</h3>
-          <p>To design the interface</p>
-        </div>
-        <div class="card-skill">
-          <img src="Assets/bootstrap.png" alt="" />
-          <h3>bootstrap</h3>
-          <p>Framework with utility component</p>
-        </div>
-      </div>
+    </div>
     </section>
+    <!-- Projeck Porto -->
     <figure id="portofolio">
       <div class="title-figure">
         <h2>Portofolio</h2>
         <p>My Recent Project</p>
       </div>
       <div class="container-card-figure">
-        <div class="card-figure">
+        <div class="card-figure" data-aos="fade-up-right" data-aos-duration="2200" data-aos-delay="200" >
           <img src="Assets/porto1.png" alt="" />
           <p>Tourism Website</p>
           <h3>About Blambangan Digital</h3>
           <a href=""><i class="bx bxl-github" style="color: #7aa5d2"></i></a>
         </div>
-        <div class="card-figure">
+        <div class="card-figure" data-aos="fade-up-left" data-aos-duration="2200" data-aos-delay="400">
           <img src="Assets/porto2.png" alt="" />
           <p>Website E-Commerce</p>
           <h3>Alexa Clothing Store</h3>
@@ -137,6 +147,7 @@
         </div>
       </div>
     </figure>
+    <!-- Contact -->
     <section id="contact" class="contact">
       <div class="container-contact">
         <h2>Contact <span>Me</span></h2>
@@ -169,8 +180,15 @@
         <a href=""><button>Send Message</button></a>
       </form>
     </section>
+    <!-- Footer -->
     <footer>
       <p>Copyright © 2024 Mauladana Habibie. All Rights Reserved</p>
     </footer>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

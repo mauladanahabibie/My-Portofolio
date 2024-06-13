@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
 *, html {
     padding: 0;
     margin: 0;
@@ -12,6 +13,8 @@ body {
     font-style: normal;
     background-color: #303841;
     height: 300vh;
+    font-variation-settings:
+    "wdth" 100;
 }
 /* Bagian Navbar */
 nav {
@@ -52,12 +55,34 @@ header {
     font-weight: 500;
     font-size: 30px;
     color: #EEEEEE;
+
 }
 .left-header h3 {
     font-weight: 700;
     font-size: 40px;
     text-align: start;
+    width: 400px;
     color:#EEEEEE;
+    animation: typing 3s steps(28, end) infinite, blink 1.5s ease-in-out infinite;
+    border-right: 5px solid cyan;
+    overflow: hidden;
+    white-space: nowrap;    
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 425px;
+    }
+}
+@keyframes blink{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: rgb(144, 212, 241);
+    }
 }
 .left-header p {
     font-weight: 300;
@@ -65,10 +90,12 @@ header {
     width: 38rem;
     text-align: start;
     color:#EEEEEE;
+ 
 }
 .left-header p span {
     color: #7AA5D2;
     font-weight: 700;
+
 }
 .left-header ul {
     gap:7px;
@@ -108,22 +135,34 @@ main {
     font-weight: 300;
     font-size: 30px;
     color: #EEEEEE;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 300;
 }
 .title-main h2 span {
     color: #7AA5D2;
 }
+.content-left{
+    border: 10px solid #7AA5D2;  
+    /* border-radius: 34px; */
+    width: 340px;
+    height: 320px;
+    margin-top: 20px;
+}
 .content-left img {
-    width: 350px;
-    height: 350px;
-    border-radius: 34px;
-    border: 3px solid #7AA5D2;
-    margin-top: 5px;
+    width: 340px;
+    height: 320px;
+    border-radius: 12px;
+    position: relative;
+    right: 40px;
+    bottom: 40px;
 }
 
 .content{
-    margin-top:100px;
+    margin-top: 100px;
     display: flex;
     padding: 12px 70px;
+    justify-content: space-between;
+    gap: 8rem;
 }
 .content .explain {
     color: #EEEEEE;
@@ -153,12 +192,13 @@ main {
 }
 .content-right{
     margin-top: 5px;
-    margin-left: 200px;
+
 }
 .container-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 15px;
+    gap: 3.5rem;
 }
 .card-content {
     width: 185px;
@@ -189,43 +229,36 @@ main {
 .skill .title-skill{
     text-align: center;
 }
-.container-skill{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-    justify-items: center;
-    margin: 40px 0;
-    gap: 35px;
-    /* background-color: red; */
-    padding: 20px ;
-    line-height: 30px;
+.skill .title-skill h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #EEEEEE;
 }
-.container-skill .card-skill img{
+.container-skill{
+    /* display: flex;
+    justify-content: center;
+    gap: 25px; */
+}
+.container-card-skill{
+    display: flex;  
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.container-card-skill .card-skill{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-card-skill .card-skill img{
     width: 100px;
     height: 100px;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
 }
-.container-skill .card-skill h3{
-    color:#7AA5D2;
-    font-weight: 600;
-    margin-top: 10px;
-}
-.container-skill .card-skill p{
-    color: #EEEEEE;
-    font-weight: 300;
-}
-.skill .title-skill h2{
-    font-weight: 700;
-    font-size: 60px;
-    color: #EEEEEE;
-}
-.skill .title-skill p{
-    font-weight: 300;
-    font-size: 30px;
-    color: #7AA5D2;
+.container-card-skill .card-skill h5{
+    font-weight: 500;
+    font-size: 18px;
 }
 
 /* Figure Sections */
